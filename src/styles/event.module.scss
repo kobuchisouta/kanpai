@@ -1,0 +1,50 @@
+.search {
+    display: flex;
+    padding-top: 30px;
+}
+
+.search p {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: 000000;
+}
+
+.searchBar {
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #60D1FF;
+    margin: 0 auto;
+}
+
+.place_wrap {
+    padding-top: 30px;
+}
+
+.place h1 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #FF8A00;
+    padding-left: 30px;
+
+}
+
+.event a {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-left: 10px;
+
+}
+
+.event img {
+    width: 160px;
+    height: 210px;
+    display: block;
+}

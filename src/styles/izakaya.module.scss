@@ -1,0 +1,59 @@
+/* styles/IzakayaList.module.css */
+.container {
+    padding: 20px;
+}
+
+.title {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.button {
+    width: 80%;
+    height: 50px;
+    background-color: #e2e8f0;
+    background: skyblue;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 37px;
+}
+
+.button:hover {
+    background-color: #cbd5e0;
+}
+
+.error {
+    color: red;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+}
+
+.listItem {
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.shopName {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.shopCatch {
+    color: #4a5568;
+    margin-bottom: 10px;
+}
+
+.shopImage {
+    margin-top: 10px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}

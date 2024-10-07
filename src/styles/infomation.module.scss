@@ -1,0 +1,72 @@
+.search {
+    display: flex;
+    padding-top: 30px;
+}
+
+.search p {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: 000000;
+}
+
+.searchBar {
+    width: 80%;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #60D1FF;
+    margin: 0 auto;
+}
+
+.newsWrap {
+    width: 100%;
+    gap: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.news {
+    width: 80%;
+    height: 160px;
+}
+
+.news div {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    border-radius: 10px;
+}
+
+.osaka {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%),
+        url(/img/osaka.jpeg) center / cover no-repeat;
+}
+
+.kyoto {
+    background: url(/img/kyoto.jpeg) center / cover no-repeat;
+}
+
+.hyogo {
+    background: url(/img/hyogo.jpeg) center / cover no-repeat;
+}
+
+.news p {
+    font-size: 36px;
+    color: #fff;
+    font-weight: bold;
+    inset: 0;
+    margin: auto;
+}
+
+.news img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
